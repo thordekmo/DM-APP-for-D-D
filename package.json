@@ -1,0 +1,19 @@
+{
+  "name": "dm-app-for-d-d",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Tool di creazione contenuti compatibile SRD 5.2 (CC-BY 4.0).",
+  "scripts": {
+    "test": "echo \"✔️ Test placeholder (nessun test ancora definito)\"",
+    "audit": "echo \"🔎 Audit SRD/IP placeholder (nessun controllo ancora definito)\"",
+    "build": "echo \"🏗️ Build placeholder\""
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "CC-BY-4.0",
+  "author": "DM-APP DevOps Agent"
+}
