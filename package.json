@@ -1,0 +1,14 @@
+﻿{
+  "name": "dm-app-for-d-d",
+  "private": true,
+  "workspaces": ["backend","frontend"],
+  "scripts": {
+    "dev": "concurrently \"npm run dev -w backend\" \"npm run dev -w frontend\"",
+    "build": "npm run build -w backend && npm run build -w frontend",
+    "test": "echo \"âœ”ï¸ Placeholder test OK\"",
+    "audit": "echo \"ðŸ”Ž Placeholder audit SRD/IP OK\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
